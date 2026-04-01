@@ -9,17 +9,9 @@ if exists("b:did_ftplugin")
 endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Load bundled verilog defaults
+" Load bundled defaults
 
 source $VIMRUNTIME/ftplugin/sh.vim
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Format options (see fo-table)
-"   c = autowrap comments
-"   r = (insert) enter continues comments
-"   o = (normal) o , O continues comments
-
-"set formatoptions-=ro " moved to vimrc
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Setup Expressions for Autocomplete plugin
