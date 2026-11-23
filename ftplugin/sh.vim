@@ -25,7 +25,7 @@ let s:arg = 'local opt OPTIND\n' .
           \ 'shift $((OPTIND - 1))\n'
 
 let s:autocomplete_matches = [
- \      ['args'.s:eol,  '\!'.s:arg  ],
+ \      ['\vargs'.s:eol,  '\!'.s:arg  ],
  \ ] + autocomplete#common("#")
 
 if exists('*autocomplete#register') | call autocomplete#register("sh", s:autocomplete_matches) | endif
